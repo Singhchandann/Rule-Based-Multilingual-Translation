@@ -121,4 +121,4 @@ nltk
 This project is licensed under the MIT License - see the LICENSE file for details.  
 
 ## Acknowledgments  
-# IndicTrans2 for providing pre-trained models for multilingual translation.
+IndicTrans2 for providing pre-trained models for multilingual translation.
