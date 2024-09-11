@@ -1,0 +1,13 @@
+pip==24.0
+gradio
+python-dotenv
+ai4bharat-transliteration
+mahaNLP
+inference
+huggingface_hub gradio
+mosestokenizer
+indicnlp
+mahaNLP
+ctranslate2
+torch --index-url https://download.pytorch.org/whl/cu118
+gradio
