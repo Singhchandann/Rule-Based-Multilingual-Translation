@@ -3,19 +3,24 @@
 This project implements a **rule-based multilingual translation system** for English, Hindi, and Marathi languages, incorporating **custom shaskiya words** using custom data. The solution leverages various models from **IndicTrans2**, including named entity recognition (NER) and transliteration for person tags.
 
 ## Directory Structure
-
+ 
 Rule-Based-Multilingual-Translation/  
-├── inference/                    # Inference engine from IndicTrans2 (add details in the README)  
+├── inference/                    # Inference engine from IndicTrans2 (import from IndicTrans2)  
 ├── data/  
 │   └── Final_Translation_Data.xlsx # Custom data for translations  
 ├── scripts/  
 │   ├── install.sh                 # Installation script for dependencies  
 │   └── translation.py             # Main Python script  
-├── README.md                      # Main project description  
-├── requirements.txt               # Required Python libraries  
-├── LICENSE                        # License file (choose an appropriate open-source license)  
-├── .env.example                   # Example of environment variables (if needed)  
-└── demo/                          # For Gradio demo link or relevant screenshots  
+├── marathi_stopwords.txt          # File containing Marathi suffixes for correction  
+├── main.py                        # Main translation logic  
+├── gradio_interface.py            # Gradio-based UI for translation  
+├── indic-en/                      # Folder for Indic-EN model  
+├── en-indic/                      # Folder for EN-Indic model  
+├── indic-indic/                   # Folder for Indic-Indic model  
+├── README.md                      # Project documentation  
+├── requirements.txt               # Python dependencies  
+└── LICENSE                        # License for the project  
+
 
 
 ## Features
