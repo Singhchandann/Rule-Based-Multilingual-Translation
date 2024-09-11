@@ -12,8 +12,6 @@ Rule-Based-Multilingual-Translation/
 │   ├── install.sh                 # Installation script for dependencies  
 │   └── translation.py             # Main Python script  
 ├── marathi_stopwords.txt          # File containing Marathi suffixes for correction  
-├── main.py                        # Main translation logic  
-├── gradio_interface.py            # Gradio-based UI for translation  
 ├── indic-en/                      # Folder for Indic-EN model  
 ├── en-indic/                      # Folder for EN-Indic model  
 ├── indic-indic/                   # Folder for Indic-Indic model  
