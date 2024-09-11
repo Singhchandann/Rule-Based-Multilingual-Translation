@@ -21,12 +21,18 @@ Rule-Based-Multilingual-Translation/
 ├── requirements.txt               # Python dependencies  
 └── LICENSE                        # License for the project  
 
+## Folder Structure  
+- `data/` — contains custom datasets (e.g., translation corrections, Marathi stopwords).  
+- `inference/` — contains files cloned from [IndicTrans2](https://github.com/AI4Bharat/IndicTrans2) after installation.  
+- `models/` — stores pretrained models for translation.  
+- `src/` — main source files for the translation system.  
+- `.env` — environment variables for your API keys or paths.  
 
-
-## Features
-- **English to Marathi, Hindi Translation** with corrections for common translation issues using custom data.
-- **Marathi to English, Hindi Translation** using NER-based person-tag recognition.
-- **Hindi to English, Marathi Translation** using custom NER tagging and transliteration.
+### Key Features:  
+- **Custom NER-based transliteration** for Marathi names with suffix handling.  
+- **Rule-based corrections** for English-to-Marathi translations using custom datasets.  
+- Supports **multiple translation directions** between English, Marathi, and Hindi.  
+- **Gradio interface** for easy usage as a web-based app.  
 
 ## Demo
 Check out the [Gradio Demo](#) for live multilingual translation.
